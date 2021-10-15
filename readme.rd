@@ -5,6 +5,10 @@ File --->   application\controllers\admin\Authentication.php:
   117:      hooks()->do_action('after_staff_login');
   219:      hooks()->do_action('after_user_logout');
 
+Source: https://help.perfexcrm.com/introduction-to-perfex-crm-modules/
+https://help.perfexcrm.com/create-menu-items/
+https://www.perfexcrm.com/knowledgebase/action-hooks/
+
 File --->   application\controllers\admin\Auto_update.php:
    14:      hooks()->do_action('before_perform_update', $latest_version);
 
