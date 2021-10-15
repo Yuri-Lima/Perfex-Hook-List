@@ -1,0 +1,5 @@
+// Quick Reference Guide For Perfex CRM Language functions
+
+_l('string') // Basic language conversion
+_d('date') // Will output formatted date (Although seems to output datetime if datetime in DB)
+_dt('datetime') // Will output formatted datetime output
