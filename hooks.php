@@ -32,7 +32,7 @@ function client_added($data) {
     ]);
     
     $response = curl_exec($curl);
-    
+    $status_code = curl_getinfo($curl, CURLINFO_HTTP_CODE)
     curl_close($curl);
     
     return $data;
